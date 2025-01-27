@@ -12,8 +12,13 @@ public class ManipulacaoDeCores extends JPanel {
         g2d.setColor(new Color(16, 58, 216, 255));
         g2d.fillRect(30, 50, 150, 100);
 
+        // Texto atrás do segundo retângulo
+        g2d.setColor(Color.BLACK);
+        g2d.setFont(new Font("Arial", Font.BOLD, 11));
+        g2d.drawString("Texto atrás do retângulo", 220, 100);
+
         // Cor com transparência
-        g2d.setColor(new Color(239, 10, 10, 128));
+        g2d.setColor(new Color(239, 10, 10, 0));
         g2d.fillRect(210, 50, 150, 100);
 
         // Gradiante
